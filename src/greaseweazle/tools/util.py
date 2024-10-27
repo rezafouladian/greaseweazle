@@ -125,6 +125,7 @@ class Drive:
             '0': (USB.BusType.Shugart, 0),
             '1': (USB.BusType.Shugart, 1),
             '2': (USB.BusType.Shugart, 2),
+            '3': (USB.BusType.Shugart, 3),
         }
         if not letter.upper() in types:
             raise argparse.ArgumentTypeError("invalid drive letter: '%s'"
